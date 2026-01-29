@@ -1,0 +1,9 @@
+node_modules
+.turbo
+**/dist
+.git
+.gitignore
+.env
+.env.*
+*.log
+project_docs

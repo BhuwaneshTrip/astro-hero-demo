@@ -1,0 +1,35 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astro-docs/api": "workspace:*",
+    "@astro-docs/env": "workspace:*",
+    "@astrojs/node": "^9.5.2",
+    "@astrojs/react": "^4.4.2",
+    "@heroui/react": "^2.8.7",
+    "@heroui/theme": "^2.4.25",
+    "@orpc/client": "catalog:",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.11",
+    "dotenv": "catalog:",
+    "framer-motion": "^12.29.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@astro-docs/config": "workspace:*",
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
+    "typescript": "catalog:"
+  }
+}

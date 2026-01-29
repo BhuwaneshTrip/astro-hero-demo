@@ -1,0 +1,3 @@
+{
+  "extends": "@astro-docs/config/tsconfig.base.json"
+}
