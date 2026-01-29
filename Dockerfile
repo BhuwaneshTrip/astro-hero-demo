@@ -17,6 +17,7 @@ ENV PORT=8080
 
 WORKDIR /app
 
+COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/apps/web/dist ./dist
 
 EXPOSE 8080
