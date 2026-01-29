@@ -18,8 +18,8 @@ ENV PORT=8080
 WORKDIR /app
 
 COPY --from=build /app/node_modules ./node_modules
-COPY --from=build /app/apps/web/dist ./dist
+COPY --from=build /app/apps/web/dist ./
 
 EXPOSE 8080
 
-CMD ["node", "./dist/server.mjs"]
+CMD ["node", "./server/entry.mjs"]
